@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    width: 720px;
+    height: 343px;
+    margin: 0 0 200px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 1px white;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.journalofnomads.com/wp-content/uploads/2021/10/Osh-Kyrgyzstan.jpg");
+    background-size: cover;
+    height: 330px;
+    padding-top: 20px;
+}
+
+#title {
+    border-radius: 5px;
+    padding: 5px 10px;;
+}
+
+.act-pic {
+    width: 150px;
+    height: 100px;
+    border-radius: 10%;
+    transition: 0.6s;
+}
+
+.act-pic:hover {
+    width: 160px;
+    height: 110px;
+}
+
+
+#activities {
+    background: linear-gradient(#9a8191, #f6eaec);
+    padding: 10px;
+}
+
+#activities:hover {
+    background: linear-gradient(#f6eaec, #9a8191);
+}
+
+.places {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;;
+}
+
+.activity {
+    width: 300px;
+}
+
+.guide {
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#card {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 205px;
+    margin: 40px auto;
+    padding: 20px 10px 0px 0px;
+    background: #003049;
+    color: #fdf0d5;
+    border-bottom: 6px solid #669bbc;
+    transition: 0.6s;
+}
+
+#card:hover {
+    background: #669bbc;
+    border-bottom: 6px solid #003049;
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 10px;
+}
